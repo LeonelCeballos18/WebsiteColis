@@ -11,48 +11,82 @@
     <link rel="stylesheet" href="./sources/css/style.css">
     <title>Colis</title>
 </head>
-<body>
-    
+<body> 
     <div class="modal" data-modal>
-
-        <div class="modal-close-overlay" data-modal-overlay></div>
-    
-        <div class="modal-content">
-    
-          <button class="modal-close-btn" data-modal-close>
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
-    
-          <div class="newsletter-img">
-            <img src="./assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
-          </div>
-    
-          <div class="newsletter">
-    
-            <form action="#">
-    
-              <div class="newsletter-header">
-    
-                <h3 class="newsletter-title">Suscribete.</h3>
-    
-                <p class="newsletter-desc">
-                  Suscribete a <b>Coli's</b> para obtener los ultimos descuentos antes que nadie.
-                </p>
-    
-              </div>
-    
-              <input type="email" name="email" class="email-field" placeholder="Email Address" required>
-    
-              <button type="submit" class="btn-newsletter">Subscribe</button>
-    
-            </form>
-    
-          </div>
-    
+      <div class="modal-close-overlay" data-modal-overlay></div>
+      <div class="modal-content">
+      <button class="modal-close-btn" data-modal-close>
+      <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <div class="newsletter-img">
+        <img src="./assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
+      </div>
+      <div class="newsletter">
+         <form action="#">
+          <div class="newsletter-header">
+            <h3 class="newsletter-title">Suscribete</h3>
+            <p class="newsletter-desc">Suscribete a <b>Coli's</b> para obtener los ultimos descuentos antes que nadie.</p>
+            </div>
+            <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+            <button type="submit" class="btn-newsletter">Subscribe</button>
+          </form>
         </div>
-    
+      </div>
+    </div>
+
+    <header>
+      <div class="header-top">
+        <div class="container">
+          <ul class="header-social-container">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
+      <div class="header-main">
+        <div class="container">
+          <a href="#" class="header-logo">
+            <img src="./sources/images/logos/Morenita24LogoColis.png" alt="#" width="85" height="46">
+          </a>
+
+          <div class="header-search-container">
+            <input type="search" name="search" class="search-field" placeholder="Buscar">
+            <button class="search-btn">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="header-user-actions">
+            <button class="action-btn">
+              <ion-icon name="person-outline"></ion-icon>
+            </button>
+  
+            <button class="action-btn">
+              <ion-icon name="heart-outline"></ion-icon>
+              <span class="count">0</span>
+            </button>
+  
+            <button class="action-btn">
+              <ion-icon name="bag-handle-outline"></ion-icon>
+              <span class="count">0</span>
+            </button>
+          </div>
+
+
+        </div>
+      </div>
+
+      
+    </header>
 
     <script src="./sources/js/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
