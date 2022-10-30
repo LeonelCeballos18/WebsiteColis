@@ -535,17 +535,6 @@
     margin: auto;
   }
 
-  .modal-content {
-    display: flex;
-    align-items: center;
-    max-width: 750px;
-    width: fit-content;
-  }
-
-  .newsletter-img { display: block; }
-
-  .newsletter { text-align: left; }
-
   .header-main .container { gap: 80px; }
 
   .header-search-container { flex-grow: 1; }
