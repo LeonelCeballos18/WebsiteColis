@@ -304,7 +304,7 @@
 
 .mobile-bottom-navigation .action-btn {
   position: relative;
-  font-size: 26px;
+  font-size: 23px;
   color: var(--eerie-black);
   padding: 10px;
 }
@@ -507,7 +507,7 @@
   .header-top-actions select {
     border: none;
     display: block;
-    min-width: 80px;
+    min-width: 60px;
     padding: 5px 0;
     font: inherit;
     color: var(--sonic-silver);
@@ -570,9 +570,9 @@
 
   .header-user-actions .action-btn {
     position: relative;
-    font-size: 35px;
+    font-size: 25px;
     color: var(--onyx);
-    padding: 5px;
+    padding: 3px;
   }
 
   .header-user-actions .count {
