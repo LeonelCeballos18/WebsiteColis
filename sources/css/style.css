@@ -60,7 +60,7 @@
   span { display: inline-block; }
   
   html {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     -ms-scroll-chaining: none;
         overscroll-behavior: contain;
   }
@@ -458,6 +458,23 @@
   border-radius: var(--border-radius-md);
 }
 
+.formulario{
+  width: 50%;
+  display:inline-block;
+  align-items: center;
+  align-content: center;
+  margin-top: 10px;
+}
+
+.register{
+  border-left: 1px solid var(--cultured);
+}
+
+.inputs input{
+  width: 70%;
+  margin: auto;
+}
+
 @media (min-width: 480px) {
   :root {
     --fs-1: 1.875rem;
@@ -549,6 +566,12 @@
     gap: 5px;
   }
 
+  .header-user-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
   .header-social-container .social-link {
     padding: 5px;
     background: hsl(0, 0%, 95%);
@@ -560,6 +583,11 @@
   .header-social-container .social-link:hover {
     background: var(--salmon-pink);
     color: var(--white);
+  }
+
+  .log-link a{
+    color: var(--onyx);
+    padding-left: 5px;
   }
 
   .header-user-actions {
@@ -588,7 +616,10 @@
     border-radius: 20px;
   }
 
-  .desktop-navigation-menu { display: block; }
+  .desktop-navigation-menu {
+    display: block;
+    border-bottom: 1px solid var(--cultured);
+  }
 
   .desktop-menu-category-list {
     position: relative;
